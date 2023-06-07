@@ -1,0 +1,14 @@
+<div class="card">
+    <ul>
+        <a routerLink="/login">Login</a>&nbsp;
+        <a routerLink="/register">Register</a>&nbsp;
+    </ul>
+    <div class="input">
+    <p>Username</p>
+    <input type="text" [(ngModel)]="userInput">
+    <p>Password</p>
+    <input type="text" [(ngModel)]="passwordInput">
+    <br><br>
+    <button (click)="signIn()">Sign In</button>
+    </div>
+</div>
